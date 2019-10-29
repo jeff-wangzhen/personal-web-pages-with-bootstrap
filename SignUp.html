@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="css/style.css" rel='stylesheet' type='text/css'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <script src="../js/jquery.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <title>注册</title>
+</head>
+<body>
+<div id="noscript">
+    <noscript>
+        请设置启用脚本后重试！
+    </noscript>
+</div>
+<div class="container">
+    <div class="main">
+        <!---start-main-->
+        <dl class="inset nav nav-pills">
+            <li id="signup" class="navbar-text  active"><a href="">注册</a></li>
+            <li id="signin" class="navbar-text"><a
+                        href="index.html">登录</a></li>
+        </dl>
+        <br/>
+        <div class="text-center text-muted"><h2><a href="introduction.php">点击这里</a>以游客身份访问</h2></div>
+        <form method="post" class="form-actions" id="form1" name="form1" onsubmit="fnCheckForm();" enctype="multipart/form-data">
+            <br/>
+            <div class="clear"></div>
+            <div class="lable control-group">
+                <div class="controls">
+                    <input type="file" class="input-xxlarge" name="file" id="file" value="头像"/>
+                    <div class="text-info">上传自定义头像只能是jpg/png/gif格式，不得大于9kb</div>
+                    <div class="controls">
+                        <div class="input-prepend"><span class="add-on"><i class=" icon-user"></i></span> <input
+                                    type="text" class="text input-xxlarge" id="username" name="username"
+                                    placeholder="用户名" autofocus></div>
+                    </div>
+                    <br/>
+                    <div class="text-info" id="usertip">请正确填写用户名，必须以字母开头，可以包括数字、下划线、减号，6~20字符</div>
+                    <div class="controls">
+                        <div class="input-prepend"><span class="add-on"><i class=" icon-lock"></i></span><input
+                                    type="password" class="text input-xxlarge" id="userpwd" name="userpwd"
+                                    placeholder="登录密码"></div>
+                    </div>
+                    <div class="text-info" id="pwdtip">请正确填写密码，只能包含字母，数字、下划线、减号，6~20字符</div>
+                    <div class="controls">
+                        <div class="input-prepend"><span class="add-on"><i class=" icon-lock"></i></span><input
+                                    type="password" class="text input-xxlarge" id="checkid" name="checkid"
+                                    placeholder="确认密码"></div>
+                    </div>
+                    <div class="text-info " id="checktip">请再次输入密码</div>
+                </div></div>
+                <h3><span>点击注册表示您理解并同意：我不保证数据安全<span></h3>
+                <div class="submit">
+                    <input type="submit" name="Submit" id="submit" value="确认注册"/>
+                </div>
+        </form>
+        <br>
+        <div class="foot">重庆师范大学计算机与信息科学学院16计科王振制作，版权所有</div>
+        <!--脚注部分-->
+    </div>
+</div>
+<script>
+
+
+    document.write("<script type=\"text/javascript\" src=\"js/signup.js\" charset=\"UTF-8\"><\/script>");
+
+</script>
+
+</body>
+</html>

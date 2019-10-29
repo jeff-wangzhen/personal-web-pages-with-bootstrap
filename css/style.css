@@ -1,0 +1,214 @@
+﻿/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+cursor: url(http://tzw520.cn/shu.cur), default;/*鼠标指针样式*/
+}
+
+#noscript {
+    background: #fff;
+    height: 100%;
+    font-family: 微软雅黑, 幼圆;
+    font-size: 24px;
+    width: 100%;
+    line-height: 100%;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-top: 0px;
+    z-index: 1;
+}
+noscript{
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    line-height: 100%;
+
+}
+
+.visitor {
+    clear: left;
+    text-align: center;
+}
+
+#usertip, #checktip, #pwdtip {
+    display: block;
+    line-height: 100%;
+    height: 100%;
+    margin-left: 10px;
+    z-index: 0;
+    padding-bottom: 10px;
+}
+
+body {
+    height: 100%;
+  /*  display: flex;*/
+    align-items: center;
+}
+
+.main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.inset {
+    text-align: center;
+    width: 100%;
+}
+
+.main h2 {
+    font-size: 1em;
+    text-align: center;
+
+}
+
+.main h3 {
+    font-size: 1em;
+    text-align: left;
+    padding: 1em 0;
+}
+
+.main h3 span a {
+    color: #1888A8;
+    font-weight: bold;
+}
+
+.portrait {
+    display: inline-block;
+    text-align: center;
+    width: 49.6%;
+}
+
+.clear {
+    height: 25px;
+}
+
+.inlet {
+    float: left;
+}
+
+#signup, #signin {
+    float: none;
+    cursor: pointer;
+    display: inline-block;
+    outline: none;
+    width: 49%;
+}
+
+#signup {
+    /*background: #3B5998;*/
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+
+}
+
+#signin {
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    /*background: #55ACEE;*/
+
+}
+
+.lable {
+    width: 100%;
+    text-align: center;
+}
+
+.text-center {
+    clear: both;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+#signup:hover {
+    background: #5D7BBA;
+    color: #fff;
+}
+
+#signup i {
+    color: #fff;
+    padding: 14px 14px;
+    float: left;
+    font-size: 18px;
+}
+
+#signin i {
+    color: #fff;
+    padding: 15px 14px;
+    float: left;
+    font-size: 18px;
+}
+
+#signin:hover {
+    background: #71B8ED;
+    color: #fff;
+}
+
+input:hover #active {
+    color: #DCDCDC;
+    border-left: 6px solid #40A46F;
+}
+
+.submit {
+    text-align: center;
+    width: 100%;
+}
+
+input[type=submit] {
+    padding: 15px;
+    color: #fff;
+    background: #40A46F;
+    border: 1px solid #40A46F;
+    border-radius: 20px;
+    font-size: 18px;
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    outline: none;
+}
+
+input[type=submit]:hover {
+    background: #07793D;
+    border: 1px solid #07793D;
+}
+
+input[type=file] {
+    clear: both;
+
+}
+
+.foot {
+    /*脚注部分*/
+    text-align: center;
+    /*文字居中*/
+    background-color: #9fc;
+    /*背景色与页首同*/
+    font-size: 16px;
+    text-decoration: none;
+    /*去掉特殊文字装饰*/
+}
+
+@media (max-width: 420px) {
+    .main {
+        margin: 5px auto 0;
+    }
+}

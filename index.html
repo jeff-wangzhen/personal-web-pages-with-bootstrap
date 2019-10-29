@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="css/style.css" rel='stylesheet' type='text/css'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <script src="../js/jquery.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <title>登录</title>
+    <style>
+    </style>
+</head>
+<body>
+<!--[if lt IE 9]>
+<script>
+    alert("为了您更好的浏览体验，请切换至极速内核，或者升级您的浏览器");
+</script>
+<![endif]-->
+<div id="noscript">
+    <noscript>
+        请设置启用脚本后重试！
+    </noscript>
+</div>
+<div class="container">
+    <div class="main">
+        <!---start-main-->
+        <dl class="inset nav nav-pills">
+            <li id="signup" class="navbar-text"><a href="SignUp.html">注册</a></li>
+            <li id="signin" class="navbar-text active"><a
+                    href="">登录</a></li>
+        </dl>
+        <br/>
+        <div class="text-center text-muted"><h2><a href="introduction.php">点击这里</a>以游客身份访问</h2></div>
+        <form method="get" class="form-actions" id="form1" name="form1" action="CheckIn.php"
+              onsubmit="fnCheckForm();">
+            <div class="clear"></div>
+            <div class="lable control-group">
+                <div class="controls">
+                    <div class="input-prepend"><span class="add-on"><i class=" icon-user"></i></span><input type="text"
+                                                                                                            class="text input-xxlarge"
+                                                                                                            id="username"
+                                                                                                            name="username"
+                                                                                                            value="qaz123"
+                                                                                                            placeholder="用户名"
+                                                                                                            autofocus/>
+                    </div>
+                </div>
+                <div id="usertip">请填写用户名</div>
+                <div class="controls">
+                    <div class="input-prepend"><span class="add-on"><i class=" icon-lock"></i></span>
+                        <input type="password" class="text input-xxlarge" id="userpwd" name="userpwd" value="qaz123"
+                               placeholder="登录密码"></div>
+                </div>
+                <div id="pwdtip">请填写密码</div>
+                <div class="controls"><input type="checkbox" name="autologin" value="1">下次自动登录</div>
+            </div>
+            <h3><span>请注意：我不保证数据安全<span></h3>
+            <div class="submit">
+                <input type="submit" name="Submit" id="submit"  value="确认登录"/>
+            </div>
+        </form>
+        <br>
+        <div class="foot">重庆师范大学计算机与信息科学学院16计科王振制作，版权所有</div>
+        <!--脚注部分-->
+    </div>
+</div>
+<script>
+    document.write("<script type=\"text/javascript\" src=\"js/signin.js\" charset=\"UTF-8\"><\/script>");
+    document.write("<script src='js/xhr.js'><" + "/script>");
+    document.write("<script src='js/statistics.js'><" + "/script>")
+</script>
+</body>
+</html>
+
+
+
+
+
+
+

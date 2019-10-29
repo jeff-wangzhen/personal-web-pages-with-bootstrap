@@ -1,0 +1,92 @@
+@charset "utf-8";
+.resumetable {
+    display: inline-block;
+    vertical-align: middle;
+}
+.resume img {
+    display: inline;
+    width: 200px;
+}
+.information {
+    /*设置个人信息div的样式*/
+    width: 100px;
+    height: 275px;
+    float: left;
+}
+table {
+    font-family: 宋体;
+    display: inline-block;
+    vertical-align: middle;
+}
+table tbody {
+    width: 100%;
+}
+form {
+    padding: 0;
+    margin-bottom: 10px;
+}
+fieldset {
+    font-size: 1.5em;
+    font-family: 方正楷体, 华文楷体, 楷体;
+    /*使介绍文字美观、大方*/
+}
+legend {
+    font-family: 华文彩云, 华文行楷, 楷体;
+    /*突出个人自述*/
+}
+fieldset p span {
+    float: left;
+    /* 设置span标签的字为浮动，让其占据多行的空间 */
+    font-weight: bold;
+    /* 加粗span标签的字 */
+    font-size: 2em;
+    /* 设置span里的字为其他字体的2倍 */
+}
+.grzs p:nth-child(n+3) {
+    text-indent: 2em;
+    /*设置段落第一个字空出两个字符*/
+}
+.zhyh {
+    font-family: 华文行楷;
+    /*设置最后一行的字体，以便突出*/
+}
+.qd {
+    font-family: 隶书;
+    /*设置个人自述部分最后几个字的字体*/
+    font-size: 1em;
+    float: none;
+}
+.banner {
+    font-size: 3em;
+    /*设置字体大小*/
+    color: #0F0;
+    /*设置字体颜色*/
+    padding-top: 100px;
+    /*使与下面文字部分分离开*/
+}
+div .myname {
+    font-family: 微软雅黑, 幼圆, 隶书, 楷体;
+    /*设置名字字体，多设置几种保证特殊效果*/
+    letter-spacing: 13px;
+}
+div .htmlname {
+    font-family: 幼圆, 微软雅黑, 楷体, 隶书;
+    /*设置个人主页字体，多设置几种保证特殊效果*/
+    line-height: 3em;
+}
+.decoration {
+    position: absolute;
+    /*这是剑的效果，设置定位*/
+    left: 50%;
+    margin-left: 350px;
+    top: 100px;
+    z-index: 1;
+}
+.welcome {
+    font-family: 华文行楷, 微软雅黑;
+    font-size: 2em;
+    font-weight: 900;
+    color: #00cc33;
+    text-shadow: 5px 2px 6px #000;
+    font-style: oblique;
+}
